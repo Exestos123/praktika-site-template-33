@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    user-select: none;
+}
+
+.header{
+    background: url("../images/header.png") 0 0/100% auto no-repeat;
+    min-width: width;
+    min-height: 77vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.header__center{
+    position: absolute;
+    left: 16vw;
+    top: 27vw;
+}
+
+.pink{
+    color: #FA5C65;
+}
+.header__center__slogan{
+    font-size: 3.2vw;
+    color: #314A5B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__center__under-slogan{
+    font-size: 1.4vw;
+    color: #314A5B;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+
+.header__center__read-more{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #FA5C65;
+    padding: 1.5vw 3vw 1.5vw 3vw;
+    border-radius: 0.5vw;
+    font-weight: bold;
+    font-size: 1.1vw;
+}
+.header__center__read-more:hover{
+    background-color: #fa5c64b2;
+    color: #314A5B;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    margin-top: 1.3vw;
+    margin-left: 15vw;
+}
+.nav__nav_link{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #263742;
+    font-size: 1vw;
+    margin-right: 2vw;
+    text-align: top;
+}
+
+.nav__img{
+    margin-right: 2vw;
+    margin-top: 1.3vw;
+    max-width: 1vw;
+    max-height: 1vw;
+}
+
+.nav__img img{
+    object-fit: cover;
+    max-width: 1.6vw;
+    max-height: 1.3vw;
+}
+
+.logo{
+    width: 10.5vw;
+    background-color: #FA5C65;
+    margin-right: 9vw;
+    text-align: center;
+    font-family: 'Domine', serif;
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    padding-top: 3vw;
+    padding-bottom: 0.7vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+
+.gray{
+    color: #314A5B;
+}
+
+/* @media(max-width:1440px){
+    .container{
+        min-width: 980px;;
+    }
+}
+
+@media(max-width:1024px){
+    .container{
+        min-width: 980px;;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        min-width: 700px;;
+    }
+}
+
+@media(max-width:425px){
+    .container{
+        min-width: 400px;;
+    }
+} */
