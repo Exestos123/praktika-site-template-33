@@ -7,7 +7,7 @@
 
 .header {
     background: url("../images/header.png") 0 0/100% auto no-repeat;
-    min-width: width;
+    min-width: 100%;
     min-height: 77vw;
 }
 
@@ -181,6 +181,7 @@ margin-bottom: 0.7vw;
 
 .team{
     margin-top: 7vw;
+    margin-bottom: 3.5vw;
 }
 
 .team__name{
@@ -211,9 +212,10 @@ margin-bottom: 0.7vw;
 }
 
 .guy__article{
-    margin-left: 2vw;
+    margin-left: 1vw;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: 1.5vw;
 }
 .guy__article__name{
     color: #314A5B;
@@ -230,31 +232,45 @@ margin-bottom: 0.7vw;
 .guy__article__description{
     color: #9AA0AB;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.25vw;
+    font-size: 1.2vw;
 }
 
 .to-right{
     display: flex;
     justify-content: flex-end;
-}
-/* @media(max-width:1440px){
-    .container{
-        min-width: 980px;;
-    }
+    margin-top: 3vw;
 }
 
-@media(max-width:1024px){
-    .container{
-        min-width: 980px;;
-    }
+.footer {
+    height: 92px;
+    display: flex;
+    align-items: center;
+    border-top: #56565655 solid 1px;
+    width: 72vw;
+    margin-left: 16vw;
+    margin-right: auto;
 }
 
-@media(max-width:768px){
-    .container{
-        min-width: 700px;;
-    }
+.footer__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
+.footer__link + .footer__link {
+    margin-left: 22px;
+}
+
+.footer__copyright {
+    color:#B9C0C6;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 13px;
+}
+
+
+
+
+/*
 @media(max-width:425px){
     .container{
         min-width: 400px;;
