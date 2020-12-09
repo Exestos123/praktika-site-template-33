@@ -147,10 +147,96 @@ color: #F0454C;
 align-items: center;
 }
 
-.article-with-img__img{
+.article-with-img{
     margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
 }
 
+.bigger-article{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 28vw;
+    margin-left: 6vw;
+}
+
+.article-with-img__img{
+    width: 30vw;
+}
+
+.bigger-article__name{
+    color: #314A5B;
+    font-family: 'Montserrat', sans-serif;
+font-size: 2.8vw;
+margin-bottom: 0.7vw;
+}
+
+.bigger-article__slogan{
+    color: #314A5B;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.15vw;
+    margin-bottom: 1.5vw;
+}
+
+.team{
+    margin-top: 7vw;
+}
+
+.team__name{
+    color: #314A5B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vw;
+    margin-bottom: 0.7vw;
+}
+
+.team__slogan{
+    color: #9AA0AB;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25vw;
+}
+
+.guys{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
+}
+.guy{
+    display: flex;
+    flex-direction: row;
+}
+.guy__img{
+    border-radius: 50%;
+    width: 9vw;
+}
+
+.guy__article{
+    margin-left: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.guy__article__name{
+    color: #314A5B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8vw;
+}
+.guy__article__role{
+    color: #F0454C;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.25vw;
+}
+
+.guy__article__description{
+    color: #9AA0AB;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25vw;
+}
+
+.to-right{
+    display: flex;
+    justify-content: flex-end;
+}
 /* @media(max-width:1440px){
     .container{
         min-width: 980px;;
