@@ -243,33 +243,6 @@
 }
 
 
-.footer {
-    .footer-container {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-
-    .footer__links {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        .footer__link {
-            margin-right: 2vw;
-        }
-    }
-}
-
-    .footer__copyright {
-        color: #B9C0C6;
-        font-family: 'OpenSans', sans-serif;
-        font-size: 1.3vw;
-        display: flex;
-        align-items: center;
-    }
-}
-
-
 .article__more a {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -285,6 +258,35 @@
 .pink {
     color: #FA5C65;
 }
+
+.footer {
+    .footer-container {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+
+        .footer__links {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .footer__link {
+                margin-right: 2vw;
+            }
+        }
+    }
+
+    .footer__copyright {
+        color: #B9C0C6;
+        font-family: 'OpenSans', sans-serif;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
 
 
 
