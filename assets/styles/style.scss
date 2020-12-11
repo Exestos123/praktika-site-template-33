@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container {
+    width: 72vw;
+    margin-left: 16vw;
+    margin-right: auto;
+}
+
+.header {
+    background: url("../images/header.png") 0 0/100% auto no-repeat;
+    min-height: 77vw;
+
+    .header__center {
+        position: relative;
+        top: 22vw;
+
+        .header__center__slogan {
+            font-size: 3.2vw;
+            color: #314A5B;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .header__center__under-slogan {
+            position: relative;
+            top: 1vw;
+            font-size: 1.4vw;
+            color: #314A5B;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .header__center__read-more {
+            position: relative;
+            top: 3vw;
+            font-family: 'Open Sans', sans-serif;
+            color: #FFFFFF;
+            text-decoration: none;
+            background-color: #FA5C65;
+            padding: 1.5vw 3vw 1.5vw 3vw;
+            border-radius: 0.5vw;
+            font-weight: bold;
+            font-size: 1.1vw;
+        }
+
+        .header__center__read-more:hover {
+            background-color: #fa5c64b2;
+            color: #314A5B;
+        }
+    }
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .logo {
+        width: 10.5vw;
+        background-color: #FA5C65;
+        text-align: center;
+        font-family: 'Domine', serif;
+        color: #FFFFFF;
+        font-size: 1.6vw;
+        padding-top: 2.7vw;
+        padding-bottom: 0.7vw;
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+
+        .gray {
+            color: #314A5B;
+        }
+    }
+
+    .right-part {
+        display: flex;
+        flex-direction: row;
+
+        .nav {
+            margin-top: 1.3vw;
+
+            .nav__nav_link {
+                text-decoration: none;
+                font-family: 'Montserrat', sans-serif;
+                color: #263742;
+                font-size: 1.15vw;
+                margin-right: 2vw;
+                text-align: top;
+            }
+        }
+
+        .menu__img {
+            margin-right: 2vw;
+            margin-top: 1.3vw;
+            max-width: 1vw;
+            max-height: 1vw;
+        }
+
+        .menu__img img {
+            object-fit: cover;
+            max-width: 1.6vw;
+            max-height: 1.3vw;
+        }
+    }
+}
+
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vw;
+
+    .article {
+        margin-right: 3vw;
+        width: 22.5vw;
+
+        .article__name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2vw;
+            color: #465065;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+        }
+
+        .article__description {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.15vw;
+            color: #9AA0AB;
+            margin-bottom: 1.5vw;
+        }
+    }
+}
+
+
+.article-with-img {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+
+    .bigger-article {
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 28vw;
+        margin-left: 6vw;
+    }
+
+    .article-with-img__img {
+        width: 30vw;
+    }
+
+    .article__description {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.15vw;
+        color: #9AA0AB;
+        margin-bottom: 1.5vw;
+    }
+
+    .bigger-article__name {
+        color: #314A5B;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.8vw;
+        margin-bottom: 0.7vw;
+    }
+
+    .bigger-article__slogan {
+        color: #314A5B;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 1.15vw;
+        margin-bottom: 1.5vw;
+    }
+}
+
+
+.team {
+    margin-top: 7vw;
+    margin-bottom: 3.5vw;
+
+    .team__name {
+        color: #314A5B;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.3vw;
+        margin-bottom: 0.7vw;
+    }
+
+    .team__slogan {
+        color: #9AA0AB;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.25vw;
+    }
+
+    .guys {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3vw;
+
+        .guy {
+            display: flex;
+            flex-direction: row;
+
+            .guy__img {
+                border-radius: 50%;
+                width: 9vw;
+            }
+
+            .guy__article {
+                margin-left: 1vw;
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-right: 1.5vw;
+
+                .guy__article__name {
+                    color: #314A5B;
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 1.8vw;
+                }
+
+                .guy__article__role {
+                    color: #F0454C;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: bold;
+                    font-size: 1.25vw;
+                }
+
+                .guy__article__description {
+                    color: #9AA0AB;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 1.2vw;
+                }
+            }
+        }
+    }
+
+    .to-right {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 3vw;
+    }
+}
+
+
+.footer {
+    .footer-container {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+
+    .footer__links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .footer__link {
+            margin-right: 2vw;
+        }
+    }
+}
+
+    .footer__copyright {
+        color: #B9C0C6;
+        font-family: 'OpenSans', sans-serif;
+        font-size: 1.3vw;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.article__more a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: #F0454C;
+    .arrow {
+        height: 0.65vw;
+        align-items: center;
+    }
+}
+
+.pink {
+    color: #FA5C65;
+}
+
+
+
+
+
+
+/*
+@media(max-width:425px){
+    .container{
+        min-width: 400px;;
+    }
+} */
